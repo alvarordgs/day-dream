@@ -1,0 +1,20 @@
+.ofertas-lista {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.ofertas-lista h2 {
+  text-transform: uppercase;
+  font: 700 3rem/1.35 "Josefin Sans", sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.ofertas-lista h2::before {
+  content: "";
+  width: 14px;
+  height: 6px;
+  background: var(--color-5);
+  display: inline-block;
+  margin-right: 10px;
+}
