@@ -1,0 +1,55 @@
+.introducao-bg {
+  background: var(--color-1);
+  box-shadow: inset 0 -80px var(--color-0);
+}
+
+.introducao {
+  color: var(--color-0);
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 40px;
+  padding-top: 60px;
+}
+
+.introducao-conteudo {
+  align-self: top;
+}
+
+.introducao-conteudo h1 {
+  max-width: 7ch;
+  font: 700 4rem/1.05 "Josefin Sans", sans-serif;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.introducao img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+@media (max-width: 1200px) {
+  .introducao-conteudo h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .introducao-conteudo h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .introducao {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .introducao-conteudo h1 {
+    max-width: inherit;
+    text-align: center;
+    line-height: 1.35;
+  }
+}

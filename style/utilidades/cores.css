@@ -1,9 +1,10 @@
 :root {
   --color-0: #ffffff;
   --color-1: #000000;
-  --color-2: #858585;
-  --color-3: #ff891d;
-  --color-4: #ff5c00;
+  --color-2: #111111;
+  --color-3: #858585;
+  --color-4: #ff891d;
+  --color-5: #ff5c00;
 }
 
 .color-0 {
@@ -24,4 +25,8 @@
 
 .color-4 {
   color: var(--color-4);
+}
+
+.color-5 {
+  color: var(--color-5);
 }
