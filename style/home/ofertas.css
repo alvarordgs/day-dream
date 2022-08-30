@@ -5,24 +5,23 @@
 
 .ofertas-lista h2 {
   text-transform: uppercase;
-  font: 700 3rem/1 "Roboto", sans-serif;
-  display: flex;
-  align-items: center;
+  font: 700 3rem/1.35 "Josefin Sans", sans-serif;
   margin-bottom: 40px;
 }
 
 .ofertas-lista h2::before {
   content: "";
-  width: 20px;
-  height: 6px;
+  width: 16px;
+  height: 8px;
   background: var(--color-5);
-  display: inline-block;
-  margin-right: 10px;
+  display: block;
+  margin-bottom: 5px;
 }
 
 .ofertas-lista ul {
   display: flex;
-  gap: 20px;
+  justify-content: center;
+  gap: 40px;
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
@@ -60,6 +59,7 @@
   margin-bottom: 20px;
   display: flex;
   align-items: center;
+  color: var(--color-3);
 }
 
 .card-localizacao::before {
@@ -88,6 +88,14 @@
 
 .card-valor > span {
   font: 400 0.875rem/1.15 "Roboto", sans-serif;
+  color: var(--color-3);
+}
+
+@media (max-width: 1000px) {
+  .ofertas-lista ul {
+    justify-content: initial;
+    gap: 20px;
+  }
 }
 
 @media (max-width: 800px) {
@@ -97,9 +105,5 @@
 
   .ofertas-lista h2::before {
     width: 16px;
-  }
-
-  .ofertas-lista ul {
-    gap: 20px;
   }
 }
