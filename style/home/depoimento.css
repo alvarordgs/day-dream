@@ -1,0 +1,21 @@
+.depoimento {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  max-width: 700px;
+}
+
+.depoimento h2 {
+  font: 700 3rem/1.15 "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  position: relative;
+  background: url("../../img/icons/quotes.svg") no-repeat top 0px right 0px;
+}
+
+.depoimento p {
+  font: 400 0.875rem/1.35 "Roboto", sans-serif;
+  color: var(--color-3);
+}
