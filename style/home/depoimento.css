@@ -16,6 +16,15 @@
 }
 
 .depoimento p {
-  font: 400 0.875rem/1.35 "Roboto", sans-serif;
-  color: var(--color-3);
+  font: 400 1rem/1.35 "Roboto", sans-serif;
+}
+
+@media (max-width: 800px) {
+  .depoimento h2 {
+    text-align: center;
+  }
+
+  .depoimento p {
+    text-align: center;
+  }
 }
