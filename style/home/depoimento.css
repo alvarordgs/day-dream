@@ -1,3 +1,7 @@
+.depoimento-bg {
+  background: var(--color-1);
+}
+
 .depoimento {
   padding-top: 60px;
   padding-bottom: 60px;
