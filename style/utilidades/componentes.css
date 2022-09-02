@@ -17,10 +17,14 @@
   border-radius: 4px;
   color: var(--color-1);
   text-transform: uppercase;
-  font: 400 0.875/1.15 "Roboto", sans-serif;
+  font: 700 0.875/1.15 "Roboto", sans-serif;
   max-width: max-content;
   border: none;
   cursor: pointer;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .botao:hover {

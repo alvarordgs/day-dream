@@ -1,0 +1,66 @@
+.contato-bg {
+  background: linear-gradient(to right, var(--color-0) 60%, var(--color-5) 0);
+}
+
+.contato {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.contato-formulario {
+  padding: 20px;
+}
+
+.contato-formulario h2 {
+  font: 700 2rem/1.35 "Josefin Sans", sans-serif;
+  margin-bottom: 20px;
+}
+
+.contato-formulario .form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+  font: 400 1rem/1.15 "Roboto", sans-serif;
+  border: 1px solid var(--color-4);
+  border-radius: 4px;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.contato-dados {
+  padding: 40px;
+  border-radius: 4px;
+  background: var(--color-1);
+  font: 500 1.125rem/1.35 "Roboto", sans-serif;
+}
+
+.contato-endereco {
+  padding-left: 36px;
+  margin-bottom: 20px;
+}
+
+.contato-meios {
+  padding-left: 36px;
+  margin-bottom: 20px;
+  background: url("../../img/icons/carta.svg") no-repeat 0 7px;
+}
+
+.contato-meios a {
+  display: block;
+  font-style: normal;
+}
+
+.contato-redes {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding-left: 36px;
+}
