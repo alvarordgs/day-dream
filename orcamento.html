@@ -33,15 +33,105 @@
 
   <main>
     <div class="titulo-bg">
-      <div class="titulo">
+      <div class="titulo container">
         <h1>Solicite um orçamento</h1>
       </div>
     </div>
 
-    <form class='orcamento' action="./">
+    <form class='orcamento container' action="./">
       <div class="orcamento-produto">
         <h2>Selecione o pacote ideal pra você</h2>
 
+        <input type="radio" name="produto" value="rio" id="rio">
+        <label for="rio">Hilton Resort <span>R$499</span></label>
+        <div class="orcamento-detalhes">
+          <ul>
+            <li><span class="orcamento-localizacao color-3">Rio de Janeiro, Brazil</span></li>
+            <li>Hilton Resort</li>
+            <li><img class="card-stars" src="./img/icons/stars-rating.svg" alt="avaliacao"></li>
+          </ul>
+          <img src="./img/fotos/orcamento-img-1.png" alt="Imagem Rio">
+        </div>
+
+        <input type="radio" name="produto" value="cairo" id="cairo">
+        <label for="cairo">Palácio de Areia <span>R$829</span></label>
+        <div class="orcamento-detalhes">
+          <ul>
+            <li><span class="orcamento-localizacao  color-3">Cairo, Egypt</span></li>
+            <li>Palácio de Areia</li>
+            <li><img class="card-stars" src="./img/icons/stars-rating.svg" alt="avaliacao"></li>
+          </ul>
+          <img src="./img/fotos/orcamento-img-2.png" alt="Imagem Cairo">
+        </div>
+
+        <input type="radio" name="produto" value="moscow" id="moscow">
+        <label for="moscow">Palácio de Ouro <span>R$659</span></label>
+        <div class="orcamento-detalhes">
+          <ul>
+            <li><span class="orcamento-localizacao  color-3">Moscow, Russia</span></li>
+            <li>Palácio de Ouro</li>
+            <li><img class="card-stars" src="./img/icons/stars-rating.svg" alt="avaliacao"></li>
+          </ul>
+          <img src="./img/fotos/orcamento-img-3.png" alt="Imagem Moscow">
+        </div>
+      </div>
+
+      <div class="orcamento-dados">
+        <h2>Dados pessoais</h2>
+
+        <div>
+          <label for="nome">Nome</label>
+          <input type="text" name="nome" id='nome'>
+        </div>
+
+        <div>
+          <label for="sobrenome">Sobrenome</label>
+          <input type="text" name="sobrenome" id='sobrenome'>
+        </div>
+
+        <div>
+          <label for="cpf">CPF</label>
+          <input type="text" name="cpf" id='cpf' placeholder="000.000.000-00">
+        </div>
+
+        <div>
+          <label for="email">E-mail</label>
+          <input type="text" name="email" id='email'>
+        </div>
+
+        <h2>Entrega</h2>
+
+        <div>
+          <label for="cep">CEP</label>
+          <input type="text" name="cep" id='cep'>
+        </div>
+
+        <div>
+          <label for="numero">Número</label>
+          <input type="text" name="numero" id='numero'>
+        </div>
+
+        <div>
+          <label for="logradouro">Logradouro</label>
+          <input type="text" name="logradouro" id='logradouro'>
+        </div>
+
+        <div>
+          <label for="bairro">Bairro</label>
+          <input type="text" name="bairro" id='bairro'>
+        </div>
+
+        <div>
+          <label for="cidade">Cidade</label>
+          <input type="text" name="cidade" id='cidade'>
+        </div>
+
+        <div>
+          <label for="estado">Estado</label>
+          <input type="text" name="estado" id='estado'>
+        </div>
+
+        <button class="botao">Solicitar Orçamento</button>
       </div>
     </form>
   </main>

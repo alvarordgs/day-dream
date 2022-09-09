@@ -14,3 +14,6 @@
 @import "./home/galeria.css";
 @import "./home/contato.css";
 @import "./home/footer.css";
+
+/*Orçamento*/
+@import "./orcamento/orcamento.css";
