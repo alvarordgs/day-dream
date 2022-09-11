@@ -31,6 +31,11 @@
   background: #f57b0a;
 }
 
+/* Expandir coluna do grid */
+.col-2 {
+  grid-column: span 2;
+}
+
 @media (max-width: 1000px) {
   .botao {
     padding: 12px 16px;
