@@ -20,3 +20,14 @@ const url = location.href;
 if (url.includes(orcamentoButton.href)) {
   orcamentoButton.style.display = "none";
 }
+
+/* Passa os parâmetros para a página de orçamento orçamento */
+const parametros = new URLSearchParams(location.search);
+
+parametros.forEach(function (parametro) {
+  const elemento = document.getElementById(parametro);
+
+  if (elemento) {
+    elemento.checked = true;
+  }
+});
